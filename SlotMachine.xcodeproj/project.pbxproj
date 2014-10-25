@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BC1DBB19FB2BFD00BB60E0 /* Strip.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC1DBA19FB2BFD00BB60E0 /* Strip.m */; };
 		04C7DD7F19ECE91F00A8FAC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7DD7E19ECE91F00A8FAC4 /* main.m */; };
 		04C7DD8219ECE91F00A8FAC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7DD8119ECE91F00A8FAC4 /* AppDelegate.m */; };
 		04C7DD8519ECE91F00A8FAC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7DD8419ECE91F00A8FAC4 /* ViewController.m */; };
@@ -16,6 +15,7 @@
 		04C7DD8D19ECE91F00A8FAC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C7DD8B19ECE91F00A8FAC4 /* LaunchScreen.xib */; };
 		04C7DD9919ECE91F00A8FAC4 /* SlotMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7DD9819ECE91F00A8FAC4 /* SlotMachineTests.m */; };
 		04C7DDA319ECF07A00A8FAC4 /* Slot Strip Test.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C7DDA219ECF07A00A8FAC4 /* Slot Strip Test.png */; };
+		04CBEDB219FC28A8001D7559 /* Strip.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBEDB119FC28A8001D7559 /* Strip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BC1DB919FB2BFD00BB60E0 /* Strip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strip.h; path = ../Strip.h; sourceTree = "<group>"; };
-		04BC1DBA19FB2BFD00BB60E0 /* Strip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Strip.m; path = ../Strip.m; sourceTree = "<group>"; };
 		04C7DD7919ECE91F00A8FAC4 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7DD7D19ECE91F00A8FAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C7DD7E19ECE91F00A8FAC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +43,8 @@
 		04C7DD9719ECE91F00A8FAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C7DD9819ECE91F00A8FAC4 /* SlotMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlotMachineTests.m; sourceTree = "<group>"; };
 		04C7DDA219ECF07A00A8FAC4 /* Slot Strip Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slot Strip Test.png"; sourceTree = "<group>"; };
+		04CBEDB019FC28A8001D7559 /* Strip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strip.h; sourceTree = "<group>"; };
+		04CBEDB119FC28A8001D7559 /* Strip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 				04C7DD8119ECE91F00A8FAC4 /* AppDelegate.m */,
 				04C7DD8319ECE91F00A8FAC4 /* ViewController.h */,
 				04C7DD8419ECE91F00A8FAC4 /* ViewController.m */,
-				04BC1DB919FB2BFD00BB60E0 /* Strip.h */,
-				04BC1DBA19FB2BFD00BB60E0 /* Strip.m */,
+				04CBEDB019FC28A8001D7559 /* Strip.h */,
+				04CBEDB119FC28A8001D7559 /* Strip.m */,
 				04C7DD8619ECE91F00A8FAC4 /* Main.storyboard */,
 				04C7DD8919ECE91F00A8FAC4 /* Images.xcassets */,
 				04C7DD8B19ECE91F00A8FAC4 /* LaunchScreen.xib */,
@@ -228,9 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BC1DBB19FB2BFD00BB60E0 /* Strip.m in Sources */,
 				04C7DD8519ECE91F00A8FAC4 /* ViewController.m in Sources */,
 				04C7DD8219ECE91F00A8FAC4 /* AppDelegate.m in Sources */,
+				04CBEDB219FC28A8001D7559 /* Strip.m in Sources */,
 				04C7DD7F19ECE91F00A8FAC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
