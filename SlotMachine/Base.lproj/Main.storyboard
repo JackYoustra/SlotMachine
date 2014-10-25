@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="JXf-Bi-py4">
@@ -19,11 +19,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" id="zW5-M6-luh">
-                                <rect key="frame" x="0.0" y="0.0" width="800" height="746"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="738"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view opaque="NO" contentMode="scaleToFill" id="LLd-B5-EHE">
-                                        <rect key="frame" x="0.0" y="328" width="770" height="57"/>
+                                        <rect key="frame" x="0.0" y="328" width="1024" height="57"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="0.020336561593379709" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                     </view>
@@ -31,13 +31,14 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="S5W-ia-Al7">
-                                <rect key="frame" x="0.0" y="746" width="768" height="278"/>
+                                <rect key="frame" x="0.0" y="738" width="1024" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="ghostKeyboard" destination="JXf-Bi-py4" id="sRy-6y-9Sc"/>
                         <outlet property="scrollContainerView" destination="zW5-M6-luh" id="eLi-yO-5HO"/>

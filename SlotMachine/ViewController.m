@@ -142,7 +142,7 @@
                 tentativePosition/=sizePerElement; // get number of element spaces in band (remember, ribbon starts at 16)
                 tentativePosition+=1; // account for 0 offset
                 
-                UILabel *recordingLabel = [[UILabel alloc]initWithFrame:CGRectMake(currentRoller.frame.origin.x + 250, 305, 400, 100)];
+                UILabel *recordingLabel = [[UILabel alloc]initWithFrame:CGRectMake(currentRoller.frame.origin.x + 400, 305, 400, 100)];
                 recordingLabel.text = [NSString stringWithFormat:@"%0.2f", tentativePosition];
                 recordingLabel.font = [UIFont fontWithName:@"Arial" size:36.0f];
                 [currentRoller.superview addSubview:recordingLabel];
